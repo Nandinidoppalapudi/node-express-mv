@@ -20,9 +20,9 @@ router.get('/', (req, res, next) => {
   res.sendFile(path.join(__dirname, '../public/index.html'))
 })
 
-router.get('/web.html', (req, res, next) => {
-  console.log('Request to /web.html')
-  res.sendFile(path.join(__dirname, '../public/web.html'))
+router.get('/nandini.html', (req, res, next) => {
+  console.log('Request to /nandini.html')
+  res.sendFile(path.join(__dirname, '../public/nandini.html'))
 })
 
 // Defer path requests to a particular controller
